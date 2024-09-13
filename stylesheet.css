@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.webpage {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.cards-wrapper {
+  max-width: 921px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 147px auto 105px auto;
+}
+
+.card {
+  max-width: 307px;
+  width: 100%;
+  padding: 48px;
+}
+
+.card--sedans {
+  background-color: #e28625;
+  border-radius: 8px 0 0 8px;
+  z-index: 1;
+}
+
+.card--suv {
+  background-color: #006971;
+  z-index: 2;
+}
+
+.card--luxury {
+  background-color: #004140;
+  z-index: 3;
+  border-radius: 0 8px 8px 0;
+}
+
+.card__logo {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.logo__oval-shape {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.oval-shape--sedan {
+  background-color: #aa6b28;
+}
+
+.oval-shape--suv {
+  background-color: #02494f;
+}
+
+.oval-shape--luxury {
+  background-color: #033130;
+}
+
+.logo__car-shape {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.card__title {
+  width: fit-content;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.card__description {
+  max-width: 212px;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.593);
+  margin-bottom: 83px;
+}
+
+.card__button {
+  padding: 12px 31.5px;
+  border-radius: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  background-color: white;
+  margin-bottom: 2px;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.card__button:hover {
+  background-color: inherit;
+  border: 2px solid white;
+  color: white;
+}
+
+.card__button--sedan {
+  color: #e28625;
+}
+
+.card__button--suv {
+  color: #006971;
+}
+
+.card__button--luxury {
+  color: #004140;
+}
+
+@media (max-width: 986px) {
+  .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 88px auto;
+  }
+
+  .card {
+    border-radius: 8px;
+  }
+}
