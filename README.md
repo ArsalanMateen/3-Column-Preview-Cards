@@ -1,6 +1,6 @@
 # 3-Column Preview Card Component
 
-This project is a 3-column preview card component built with HTML and CSS.<br>
+This is simple "3-column preview card component" webpage built with HTML and CSS.<br>
 The design is responsive across all devices, ensuring a seamless user experience.
 
 ## Technologies Used
@@ -10,6 +10,6 @@ The design is responsive across all devices, ensuring a seamless user experience
 
 ## Visit the Webpage
 
-To view the live version of the webpage, [click here]().
+To view the live version of the webpage, [click here](https://cards-component-preview.netlify.app).
 
 ![3-column preview card component](./3-Column%20Preview%20Card%20Component.png)
