@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* CSS Reset's */
 html,
 body {
   height: 100%;
@@ -52,7 +53,7 @@ button {
   padding: 48px;
 }
 
-.card--sedans {
+.card--sedan {
   background-color: #e28625;
   border-radius: 8px 0 0 8px;
   z-index: 1;
@@ -74,7 +75,7 @@ button {
   margin-bottom: 35px;
 }
 
-.logo__oval-shape {
+.oval-shape {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -92,7 +93,7 @@ button {
   background-color: #033130;
 }
 
-.logo__car-shape {
+.car-icon {
   position: absolute;
   top: 10px;
   left: 20px;
@@ -129,12 +130,6 @@ button {
   transition: all 0.3s;
 }
 
-.card__button:hover {
-  background-color: inherit;
-  border: 2px solid white;
-  color: white;
-}
-
 .card__button--sedan {
   color: #e28625;
 }
@@ -145,6 +140,12 @@ button {
 
 .card__button--luxury {
   color: #004140;
+}
+
+.card__button:hover {
+  background-color: inherit;
+  border: 2px solid white;
+  color: white;
 }
 
 @media (max-width: 986px) {
